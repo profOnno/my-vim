@@ -2,8 +2,17 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+set tabstop=4;
+
+"expandtab will make tab use space
+set expandtab
+
+"else comment's are unreadable to me, setting the colorscheme will overwrite
+"this :p
+hi Comment=LightBlue
+
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 colorscheme desert
