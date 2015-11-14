@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/teknomen/Radicale/radicale'
 let g:netrw_dirhist_2='/home/teknomen/pumpio/PyPump/pypump'
 let g:netrw_dirhist_3='/home/teknomen/pumpio/PyPump/pypump/models'
+let g:netrw_dirhist_4='/home/pump/.vim/autoload'
